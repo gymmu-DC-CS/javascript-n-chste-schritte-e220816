@@ -11,3 +11,9 @@ export function aufgabe01(args) {
   return result.join("")
 }
 
+export function aufgabe02(args) {
+  const input = args
+    const result = input.tuUpperCase()
+    return result
+  }
+
