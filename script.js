@@ -71,6 +71,16 @@ export function aufgabe02(args) {
   
   export function aufgabe07(args) {
     const input = args
+    if (
+      (input.indexOf(" und ") !=-1 && input.indexOf("Und") != 0) ||
+      input.indexOf("Und") === 0 ||
+      input === "und"
+    )
+    return true
+    else return false
   }
 
+  export function aufgabe08(args) {
+    const input = args
+  }
   
