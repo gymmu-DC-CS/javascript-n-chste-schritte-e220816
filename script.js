@@ -26,7 +26,7 @@ export function aufgabe02(args) {
       result++
       }
     }
-    return result
+    return result
   }
 
   export function aufgabe04(args) {
@@ -40,7 +40,7 @@ export function aufgabe02(args) {
       }
       
   }
-    return result + 1
+    return result + 1
   }
 
   export function aufgabe05(args) {
@@ -80,7 +80,21 @@ export function aufgabe02(args) {
     else return false
   }
 
+
   export function aufgabe08(args) {
-    const input = args
-  }
+    const input = args;
   
+    var textMit3 = input.replace(/[e]/g, '3');
+  
+    return textMit3;
+  }
+
+  export function aufgabe09(args) {
+    const input = args
+    if (input.length === 6) return true
+    else return false 
+ }
+
+ export function aufgabe10(args) {
+  const input = args
+}
