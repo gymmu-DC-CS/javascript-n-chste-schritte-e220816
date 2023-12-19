@@ -98,3 +98,29 @@ export function aufgabe02(args) {
  export function aufgabe10(args) {
   const input = args
 }
+
+export function aufgabe11(args) {
+  const input = args
+}
+ 
+
+
+
+export function aufgabe14(args) {
+  const input = args
+  let position = -1
+  let count = 0
+
+  for (let i = 0; i < input.length; i++) {
+    const currentElement = input[i]
+    if (currentElement === "e") {
+      count++
+    }
+    if (count === 3) {
+      position = i
+      break
+    }
+  }
+
+  return position
+}
